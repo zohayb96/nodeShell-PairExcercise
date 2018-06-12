@@ -1,5 +1,5 @@
 module.exports = function(data){
-  const cmd = data.toString().trim();
+const cmd = data.toString().trim();
   if (cmd === 'pwd'){
     process.stdout.write(process.cwd());
   } else {
